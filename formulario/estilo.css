@@ -1,0 +1,43 @@
+body{
+    font-family: arial;
+}
+
+/* pseudo seletores */
+input{
+    border-color: blue;
+}
+
+input:hover{
+    border-color: orange;
+}
+
+input:focus{
+    width: 400px;
+}
+
+p:hover{
+    color: orange;
+}
+/* deixa o primeiro paragrafo cinza */
+/* p:first-of-type{
+    background-color: gray;
+} */
+/* deixa o ultimo paragrafo cinza */
+/* p:last-of-type{
+    background-color: gray;
+} */
+/* deixa os paragrafos impares cinza */
+p:nth-child(odd){
+    background-color: gray;
+}
+
+/* deixa os paragrafos pares cinza */
+/* p:nth-child(even){
+    background-color: gray;
+} */
+
+
+
+
+
+
