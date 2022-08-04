@@ -1,0 +1,47 @@
+header{
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+}
+main{
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer{
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+}
+
+section {
+    border-top: 5px dotted gray;
+    border-bottom: 5px dotted gray;
+
+}
+
+article{
+    padding: 20px;
+    margin: 30px 0;
+    background-color: #ffa600ad;
+}
+
+span{
+    background-color: purple;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    padding-right: 10px;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}

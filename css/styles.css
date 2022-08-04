@@ -1,0 +1,27 @@
+body {
+    font-family: arial;
+}
+
+p {
+    /* define o tamanho do texto */
+    font-size: 14px;
+    /* deixa o texto mais escuro */
+    font-weight: bold;
+    /* deixa o texto do ajustado na tela */
+    text-align: justify;
+    /* criar um estaço entre as linhas */
+    line-height: 20px;  
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    color: pink;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
