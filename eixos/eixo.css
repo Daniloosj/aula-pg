@@ -31,12 +31,47 @@ body{
 .item1 {
     flex-grow: 5;
     align-self: flex-start;
-}
+    animation-name: crescendo;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    left: 0;
+    /* transition: all 450ms;*/
+     transition: border-radius 450ms;
+} 
 
 .item2 {
     flex-grow: 5;
+    position: relative;
+
 }
 
 .item3 {
     flex-grow: 5;
+}
+
+.item1:hover{
+    background-color: peachpuff;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+
+}
+
+
+
+@keyframes crescendo {
+    0%{
+        /* estado inicial da animação */
+        background-color: red;
+
+    }
+    100%{
+        /* estado final da animação */
+        background-color: yellow;
+        height: 200px;
+        width: 200px;
+        opacity: 0.5;
+    }
 }
